@@ -24,3 +24,5 @@ def f(i,j,n):
     return L[i-1][j-1]  #运用动态规划
 n=int(input())
 print(f(n,n,n+1))
+
+#关键语法为冒泡排序，将数列从小到大排列
