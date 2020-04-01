@@ -6,3 +6,5 @@
 */
 
 #大学计算机基础实验6练习题1
+def f(i,j,n):
+    L=[[0 for col in range(n)]for raw in range(n)] #创建二维列表
