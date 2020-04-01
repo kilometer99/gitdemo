@@ -22,3 +22,4 @@ def f(i,j,n):
         for j in range(1,n):
             L[i][j]=L[i-1][j]+L[i][j-1]
     return L[i-1][j-1]  #运用动态规划
+n=int(input())
