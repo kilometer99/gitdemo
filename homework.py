@@ -23,3 +23,4 @@ def f(i,j,n):
             L[i][j]=L[i-1][j]+L[i][j-1]
     return L[i-1][j-1]  #运用动态规划
 n=int(input())
+print(f(n,n,n+1))
